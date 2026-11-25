@@ -17,8 +17,15 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
-    public static final Block AETHERITE_BLOCK = registerBlock("aetherite_block",properties -> new Block(properties.strength(4f)
-            .requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+    public static final Block AETHERITE_BLOCK = registerBlock("aetherite_block",properties -> new Block(properties
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final Block RAW_AETHERITE_BLOCK = registerBlock("raw_aetherite_block",properties -> new Block(properties
+            .strength(3f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.ANCIENT_DEBRIS)));
 
     private static Block registerBlock(String name , Function<BlockBehaviour.Properties,Block>function){
 

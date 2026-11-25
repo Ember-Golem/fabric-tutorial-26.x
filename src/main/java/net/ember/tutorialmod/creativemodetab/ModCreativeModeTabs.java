@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AETHERITE_INGOT);
                         output.accept(ModItems.INFUSED_AETHERITE_CORE);
                         output.accept(ModBlocks.AETHERITE_BLOCK);
+                        output.accept(ModBlocks.RAW_AETHERITE_BLOCK);
                     })
                     .build()
             );
