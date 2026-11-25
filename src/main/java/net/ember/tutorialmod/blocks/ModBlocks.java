@@ -7,9 +7,11 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
@@ -26,6 +28,27 @@ public class ModBlocks {
             .strength(3f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.ANCIENT_DEBRIS)));
+
+    public static final Block AETHERITE_ORE = registerBlock("aetherite_ore",properties -> new DropExperienceBlock(new UniformInt(2,5),properties
+            .strength(3f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)));
+
+    public static final Block DEEPSLATE_AETHERITE_ORE = registerBlock("deepslate_aetherite_ore",properties -> new DropExperienceBlock(new UniformInt(3,6),properties
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.DEEPSLATE)));
+
+    public static final Block RESONANCE_ORE = registerBlock("resonance_ore",properties -> new DropExperienceBlock(new UniformInt(2,5),properties
+            .strength(3f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)));
+
+    public static final Block DEEPSLATE_RESONANCE_ORE = registerBlock("deepslate_resonance_ore",properties -> new DropExperienceBlock(new UniformInt(3,6),properties
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.DEEPSLATE)));
+
 
     private static Block registerBlock(String name , Function<BlockBehaviour.Properties,Block>function){
 

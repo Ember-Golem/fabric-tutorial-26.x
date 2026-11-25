@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.INFUSED_AETHERITE_CORE);
                         output.accept(ModBlocks.AETHERITE_BLOCK);
                         output.accept(ModBlocks.RAW_AETHERITE_BLOCK);
+                        output.accept(ModBlocks.AETHERITE_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_AETHERITE_ORE);
                     })
                     .build()
             );
@@ -38,6 +40,8 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.RAW_RESONANCE_SHARD);
                         output.accept(ModItems.RESONANCE_SHARD);
+                        output.accept(ModBlocks.RESONANCE_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_RESONANCE_ORE);
                     })
                     .build()
     );

@@ -1,6 +1,8 @@
 {
   "item.tutorialmod.resonance_shard": "Resonance Shard",
   "item.tutorialmod.raw_resonance_shard": "Raw Resonance Shard",
+  "block.tutorialmod.resonance_ore": "Resonance Ore",
+  "block.tutorialmod.deepslate_resonance_ore": "Deepslate Resonance Ore",
 
 
   "item.tutorialmod.raw_aetherite": "Raw Aetherite",
@@ -8,6 +10,8 @@
   "item.tutorialmod.infused_aetherite_core": "Infused Aetherite Core",
   "block.tutorialmod.aetherite_block": "Block Of Aetherite",
   "block.tutorialmod.raw_aetherite_block": "Block Of Raw Aetherite",
+  "block.tutorialmod.aetherite_ore": "Aetherite Ore",
+  "block.tutorialmod.deepslate_aetherite_ore": "Deepslate Aetherite Ore",
 
 
   "creativemodetab.tutorialmod.aetherite_items": "Aetherite Items",

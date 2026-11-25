@@ -20,6 +20,10 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(ModBlocks.AETHERITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.RAW_AETHERITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.AETHERITE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_AETHERITE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.RESONANCE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_RESONANCE_ORE);
     }
 
     @Override
