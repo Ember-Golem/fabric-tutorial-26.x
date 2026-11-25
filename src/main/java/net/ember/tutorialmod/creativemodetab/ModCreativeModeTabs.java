@@ -1,6 +1,7 @@
 package net.ember.tutorialmod.creativemodetab;
 
 import net.ember.tutorialmod.TutorialMod;
+import net.ember.tutorialmod.blocks.ModBlocks;
 import net.ember.tutorialmod.item.ModItems;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
@@ -22,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_AETHERITE);
                         output.accept(ModItems.AETHERITE_INGOT);
                         output.accept(ModItems.INFUSED_AETHERITE_CORE);
+                        output.accept(ModBlocks.AETHERITE_BLOCK);
                     })
                     .build()
             );

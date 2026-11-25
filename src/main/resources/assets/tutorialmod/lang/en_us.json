@@ -1,9 +1,14 @@
 {
   "item.tutorialmod.resonance_shard": "Resonance Shard",
   "item.tutorialmod.raw_resonance_shard": "Raw Resonance Shard",
+
+
   "item.tutorialmod.raw_aetherite": "Raw Aetherite",
   "item.tutorialmod.aetherite_ingot": "Aetherite Ingot",
   "item.tutorialmod.infused_aetherite_core": "Infused Aetherite Core",
+  "block.tutorialmod.aetherite_block": "Block Of Aetherite",
+
+
   "creativemodetab.tutorialmod.aetherite_items": "Aetherite Items",
   "creativemodetab.tutorialmod.resonance_items": "Resonance Items"
 }

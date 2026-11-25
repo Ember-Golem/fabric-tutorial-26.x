@@ -1,5 +1,6 @@
 package net.ember.tutorialmod;
 
+import net.ember.tutorialmod.blocks.ModBlocks;
 import net.ember.tutorialmod.creativemodetab.ModCreativeModeTabs;
 import net.ember.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -21,6 +22,7 @@ public class TutorialMod implements ModInitializer {
 
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 
