@@ -15,7 +15,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item RESONANCE_SHARD = registeritem("resonance shard", Item::new);
+    public static final Item RESONANCE_SHARD = registeritem("resonance_shard", Item::new);
 
 
 
