@@ -1,0 +1,11 @@
+// 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Model Definitions
+97daf72f5e6f3dfdb819650f2e244ff89af9d2b8 assets/tutorialmod/items/aetherite_ingot.json
+0ad5349ae45786b568680f17a0fe22d671464bc4 assets/tutorialmod/items/infused_aetherite_core.json
+d0c538a379c197b1b25cfc6875065f1f3128867d assets/tutorialmod/items/raw_aetherite.json
+452ee4143d65b87a1da8f463de32e96524875379 assets/tutorialmod/items/raw_resonance_shard.json
+66f65d47cd7ffaf71048718f46afbd35e34425f7 assets/tutorialmod/items/resonance_shard.json
+ef008c253351ba515a3fed61ba7636eca9ee0f03 assets/tutorialmod/models/item/aetherite_ingot.json
+8f485b9cdd46cacac8d8bff091282454043e3ec8 assets/tutorialmod/models/item/infused_aetherite_core.json
+7c9200be54a50b5214dd4c7382c75cb81ae45691 assets/tutorialmod/models/item/raw_aetherite.json
+97d1cf8c9040975503652773de5ff5f3707a2029 assets/tutorialmod/models/item/raw_resonance_shard.json
+d31cdd3140155814e2fc6facbd1f7a0219556dd4 assets/tutorialmod/models/item/resonance_shard.json

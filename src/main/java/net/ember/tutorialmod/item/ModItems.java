@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item RAW_RESONANCE_SHARD = registeritem("raw_resonance_shard", Item::new);
     public static final Item AETHERITE_INGOT = registeritem("aetherite_ingot", Item::new);
     public static final Item RAW_AETHERITE = registeritem("raw_aetherite", Item::new);
+    public static final Item INFUSED_AETHERITE_CORE = registeritem("infused_aetherite_core", Item::new);
 
 
 
@@ -41,6 +42,7 @@ public class ModItems {
             output.accept(RAW_RESONANCE_SHARD);
             output.accept(AETHERITE_INGOT);
             output.accept(RAW_AETHERITE);
+            output.accept(INFUSED_AETHERITE_CORE);
         });
     }
 }
