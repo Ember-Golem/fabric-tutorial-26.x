@@ -1,0 +1,7 @@
+// 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Block Loot Tables
+af088e2ba882ef68c294ab5aa7826ea8530b63df data/tutorialmod/loot_table/blocks/aetherite_block.json
+f930078934373bafd111d6238f84c5772a366c42 data/tutorialmod/loot_table/blocks/aetherite_ore.json
+87f48c8b181c5f3c0d4bf9d768fb1a13bc464274 data/tutorialmod/loot_table/blocks/deepslate_aetherite_ore.json
+eec934394e52af631aaf0f7131957605186242b0 data/tutorialmod/loot_table/blocks/deepslate_resonance_ore.json
+91b08f17eaff17e96406c952220ef82f7e6544d1 data/tutorialmod/loot_table/blocks/raw_aetherite_block.json
+3028585df910196614c17cf9cd4ba2d2531858d1 data/tutorialmod/loot_table/blocks/resonance_ore.json

@@ -1,5 +1,7 @@
 package net.ember.tutorialmod;
 
+import net.ember.tutorialmod.datagen.ModBlockLootTableProvider;
+import net.ember.tutorialmod.datagen.ModBlockTagsProvider;
 import net.ember.tutorialmod.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -11,6 +13,8 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 
 	}
 }
