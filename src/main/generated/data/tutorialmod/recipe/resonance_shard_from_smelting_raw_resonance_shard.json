@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "resonance",
+  "ingredient": "tutorialmod:raw_resonance_shard",
+  "result": {
+    "id": "tutorialmod:resonance_shard"
+  }
+}

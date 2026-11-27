@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "resonance",
+  "ingredient": "tutorialmod:resonance_ore",
+  "result": {
+    "id": "tutorialmod:resonance_shard"
+  }
+}

@@ -1,6 +1,7 @@
 package net.ember.tutorialmod.item;
 
 import net.ember.tutorialmod.TutorialMod;
+import net.ember.tutorialmod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -20,6 +21,8 @@ public class ModItems {
     public static final Item AETHERITE_INGOT = registeritem("aetherite_ingot", Item::new);
     public static final Item RAW_AETHERITE = registeritem("raw_aetherite", Item::new);
     public static final Item INFUSED_AETHERITE_CORE = registeritem("infused_aetherite_core", Item::new);
+
+    public static final Item CHISEL = registeritem("chisel",properties -> new ChiselItem(properties.durability(32)));
 
 
 
@@ -43,6 +46,10 @@ public class ModItems {
             output.accept(AETHERITE_INGOT);
             output.accept(RAW_AETHERITE);
             output.accept(INFUSED_AETHERITE_CORE);
+        });
+
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {
+            output.accept(CHISEL);
         });
     }
 }

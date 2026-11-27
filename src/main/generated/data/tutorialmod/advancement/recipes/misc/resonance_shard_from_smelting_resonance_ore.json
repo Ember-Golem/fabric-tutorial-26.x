@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_resonance_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:resonance_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:resonance_shard_from_smelting_resonance_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_resonance_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:resonance_shard_from_smelting_resonance_ore"
+    ]
+  }
+}

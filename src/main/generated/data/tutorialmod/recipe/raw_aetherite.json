@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "aetherite",
+  "ingredients": [
+    "tutorialmod:raw_aetherite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:raw_aetherite"
+  }
+}

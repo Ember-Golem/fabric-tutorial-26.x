@@ -33,6 +33,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.RAW_AETHERITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.AETHERITE_INGOT, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.INFUSED_AETHERITE_CORE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
 
     }
 }

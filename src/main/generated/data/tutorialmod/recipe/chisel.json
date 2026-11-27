@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "aetherite",
+  "key": {
+    "B": "tutorialmod:aetherite_ingot",
+    "R": "tutorialmod:resonance_shard"
+  },
+  "pattern": [
+    " R",
+    "B "
+  ],
+  "result": {
+    "id": "tutorialmod:chisel"
+  }
+}

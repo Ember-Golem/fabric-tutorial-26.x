@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "aetherite",
+  "key": {
+    "R": "tutorialmod:raw_aetherite"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "tutorialmod:raw_aetherite_block"
+  }
+}
